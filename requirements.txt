@@ -1,0 +1,11 @@
+numpy
+tensorflow==1.13.1
+opencv-python==4.5.3.56
+opencv-contrib-python==4.5.3.56
+keras==2.2.4
+scikit-image
+torch
+torchvision
+matplotlib
+pillow
+h5py

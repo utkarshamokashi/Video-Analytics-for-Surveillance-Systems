@@ -1,0 +1,8 @@
+Steps to Run the model
+-> install python 3.6.0
+-> python --version
+-> python -m pip install jupyter notebook
+-> jupyter notebook 
+-> unzip the project.zip and move the project folder to / folder where jupyter notebook is installed
+-> run the python -m pip install requirements.txt
+-> run the coco_style_lables file

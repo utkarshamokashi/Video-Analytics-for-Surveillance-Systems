@@ -1,0 +1,22 @@
+<annotation>
+    <folder>Annotations</folder>
+    <filename>10.jpg</filename>
+    <size>
+        <width>440</width>
+        <height>360</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>Person</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <occluded>0</occluded>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>139</xmin>
+            <ymin>90</ymin>
+            <xmax>338</xmax>
+            <ymax>327</ymax>
+        </bndbox>
+    </object>
+</annotation>
