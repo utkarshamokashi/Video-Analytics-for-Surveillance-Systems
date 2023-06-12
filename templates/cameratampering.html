@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" type="image/png" href="/static/img/logo.png"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="apple-touch-icon" sizes="76x76" href="/static/assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="/static/assets/img/favicon.png">
+
+  <title>
+    Tampering Detection | Open CV
+  </title>
+
+  <!--     Fonts and icons     -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
+  <!-- Nucleo Icons --> 
+  <link href="/static/nucleo-icons.css" rel="stylesheet" />
+  <link href="/static/nucleo-svg.css" rel="stylesheet" />
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+  <!-- CSS Files -->
+  <link id="pagestyle" href="/static/material.css" rel="stylesheet" />
+
+</head>
+<body class="presentation-page">
+
+
+  <header style="background-color: #fcde67"  class="header-2">
+    <div class="page-header min-vh-75 relative">
+      <span class="mask"></span>
+      <div  class="container">
+        <div class="row">
+          <div class="col-lg-7 text-center mx-auto">
+            <div style="color:black">
+            <h1>Tampering Detection !!</h1>
+            <p >A tool designed to detect any physical tampering with the camera sensor<br /> Works for both real time footage and pre-recorded videos </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div style="background-color: #0a5eab" id="card1" class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6">
+    <section class="pt-3 pb-4" id="count-stats">
+      <div class="container">
+        <div class="container">
+          <div class="row">
+            <div class="row justify-content-center text-center my-sm-5">
+              <div class="col-lg-10">
+                <span style="font-weight: 600; font-size:90% ;" class="badge bg-primary md-7 mb-3">Tool Used : OpenCV</span>
+                <h2 style="color: aliceblue;" class=" mb-0">How it works</h2>
+                <p  style="color: aliceblue; text-align: justify;" class="lead">OpenCV is the huge open-source library for computer vision, machine learning, and image processing. By using it, one can process images and videos to identify objects, faces, or even the handwriting of a human. When it is integrated with various libraries, such as NumPy, python is capable of processing the OpenCV array structure for analysis. To Identify image patterns and their various features we use vector space and perform mathematical operations on these features. 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="row">
+      <div class="col-md-1 mt-md-0 mt-1"></div>
+      <div class="col-md-5 mt-md-0 mt-5">
+        <a href="/video">
+          <div class="card shadow-lg move-on-hover min-height-160 min-height-160">
+            <img class="w-100 my-auto" src="/static/img/camera.jpg" alt="hero">
+          </div>
+          <div class="mt-2 ms-2">
+            <br>
+            <h4  style="color: aliceblue; text-align: center;" class="mb-0">Open Web-camera</h4>
+          </div>
+        </a>
+      </div>
+    
+      <div class="col-md-5 mt-md-0 mt-5">
+        <a href="/ui-sections-features.html">
+          <div class="card shadow-lg move-on-hover min-height-160 min-height-160">
+            <form method="POST" action="/video1"  enctype = "multipart/form-data">
+              <a><img class="w-100 my-auto" src="/static/img/video-analyse.jpg" alt="features"></a>
+              <input type="file" id="myFile" name="file" />
+              <input type="submit" />
+            </form>            
+          </div>
+          <div class="mt-2 ms-2">
+            <h4  style="color: aliceblue;  text-align: center;" class="mb-0">Upload a Video</h4>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  </body>
+  </html>
